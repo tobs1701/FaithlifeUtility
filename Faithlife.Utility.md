@@ -30,9 +30,11 @@
 | static class [HashCodeUtility](Faithlife.Utility/HashCodeUtility.md) | Provides methods for manipulating integers. |
 | interface [IHasEquivalence&lt;T&gt;](Faithlife.Utility/IHasEquivalence-1.md) | Implemented by reference classes that do not want to implement IEquatable{T}, but do want to support some form of equivalence. |
 | static class [InvariantConvert](Faithlife.Utility/InvariantConvert.md) | Methods for converting to and from strings using the invariant culture. |
+| interface [IOptional](Faithlife.Utility/IOptional.md) | Represents an optional value. |
 | static class [ListUtility](Faithlife.Utility/ListUtility.md) | Methods for manipulating lists. |
 | static class [ObjectImpl](Faithlife.Utility/ObjectImpl.md) | Provides methods for manipulating objects. |
 | static class [ObjectUtility](Faithlife.Utility/ObjectUtility.md) | Provides methods for manipulating objects. |
+| struct [Optional&lt;T&gt;](Faithlife.Utility/Optional-1.md) | Represents an optional value. |
 | enum [Ownership](Faithlife.Utility/Ownership.md) | Indicates whether an object takes ownership of an item. |
 | class [PriorityQueue&lt;T&gt;](Faithlife.Utility/PriorityQueue-1.md) | Implements a priority queue using a binary heap. The priority queue is sorted so that the smallest item is removed from the queue first. |
 | static class [ReaderWriterLockSlimUtility](Faithlife.Utility/ReaderWriterLockSlimUtility.md) | Extension methods for ReaderWriterLockSlim |

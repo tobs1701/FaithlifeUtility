@@ -31,7 +31,6 @@ public static class EnumerableUtility
 | static [SequenceHashCode&lt;T&gt;](EnumerableUtility/SequenceHashCode.md)(…) | Gets the hash code for a sequence. (2 methods) |
 | static [SplitIntoBins&lt;T&gt;](EnumerableUtility/SplitIntoBins.md)(…) | Splits the *source* sequence into *binCount* equal-sized bins. If *binCount* does not evenly divide the total element count, then the first (total count % *binCount*) bins will have one more element than the following bins. |
 | static [TakeLast&lt;T&gt;](EnumerableUtility/TakeLast.md)(…) | Returns the specified number of items from the end of the sequence. |
-| static [ToHashSet&lt;T&gt;](EnumerableUtility/ToHashSet.md)(…) | Returns a new set of the elements in the specified sequence. (2 methods) |
 | static [TryFirst&lt;T&gt;](EnumerableUtility/TryFirst.md)(…) |  (2 methods) |
 | static [WhereNotNull&lt;T&gt;](EnumerableUtility/WhereNotNull.md)(…) | Enumerates the specified collection, returning all the elements that are not null. (2 methods) |
 | static [Zip&lt;T1,T2&gt;](EnumerableUtility/Zip.md)(…) | Combines two same sized sequences. |

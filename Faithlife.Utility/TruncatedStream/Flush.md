@@ -1,9 +1,9 @@
-# TruncatedStream.EndRead method
+# TruncatedStream.Flush method
 
-Finishes an asynchronous read.
+Throws an exception; writes are not supported.
 
 ```csharp
-public override int EndRead(IAsyncResult asyncResult)
+public override void Flush()
 ```
 
 ## See Also

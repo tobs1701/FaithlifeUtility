@@ -3,7 +3,7 @@
 A Stream that wraps another stream. One major feature of [`WrappingStream`](WrappingStream.md) is that it does not dispose the underlying stream when it is disposed if Ownership.None is used; this is useful when using classes such as BinaryReader that take ownership of the stream passed to their constructors.
 
 ```csharp
-public class WrappingStream : Stream
+public sealed class WrappingStream : Stream
 ```
 
 ## Public Members
@@ -17,8 +17,8 @@ public class WrappingStream : Stream
 | override [CanWrite](WrappingStream/CanWrite.md) { get; } | Gets a value indicating whether the current stream supports writing. |
 | override [Length](WrappingStream/Length.md) { get; } | Gets the length in bytes of the stream. |
 | override [Position](WrappingStream/Position.md) { get; set; } | Gets or sets the position within the current stream. |
-| override [ReadTimeout](WrappingStream/ReadTimeout.md) { get; set; } | Gets or sets a value, in miliseconds, that determines how long the stream will attempt to read before timing out. |
-| override [WriteTimeout](WrappingStream/WriteTimeout.md) { get; set; } | Gets or sets a value, in miliseconds, that determines how long the stream will attempt to write before timing out. |
+| override [ReadTimeout](WrappingStream/ReadTimeout.md) { get; set; } | Gets or sets a value, in milliseconds, that determines how long the stream will attempt to read before timing out. |
+| override [WriteTimeout](WrappingStream/WriteTimeout.md) { get; set; } | Gets or sets a value, in milliseconds, that determines how long the stream will attempt to write before timing out. |
 | override [BeginRead](WrappingStream/BeginRead.md)(…) | Begins an asynchronous read operation. |
 | override [BeginWrite](WrappingStream/BeginWrite.md)(…) | Begins an asynchronous write operation. |
 | override [CopyToAsync](WrappingStream/CopyToAsync.md)(…) | Asynchronously reads the bytes from the current stream and writes them to another stream, using a specified buffer size and cancellation token. |
@@ -39,9 +39,7 @@ public class WrappingStream : Stream
 
 | name | description |
 | --- | --- |
-| [WrappedStream](WrappingStream/WrappedStream.md) { get; } | Gets the wrapped stream. |
 | override [Dispose](WrappingStream/Dispose.md)(…) | Disposes or releases the wrapped stream, based on the value of the Ownership parameter passed to the constructor. |
-| [ThrowIfDisposed](WrappingStream/ThrowIfDisposed.md)() | Throws an ObjectDisposedException if the [`WrappingStream`](WrappingStream.md) has been disposed. |
 
 ## See Also
 

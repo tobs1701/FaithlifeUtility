@@ -1,6 +1,6 @@
 # StringBuilderUtility.AppendFormatInvariant method
 
-Append the invariant representation of the specfied format tot he end of *stringBuilder*.
+Append the invariant representation of the specfied format to the end of *stringBuilder*.
 
 ```csharp
 public static StringBuilder AppendFormatInvariant(this StringBuilder stringBuilder, string format, object[] args)

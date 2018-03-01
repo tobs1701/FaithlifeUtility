@@ -10,7 +10,7 @@ public static class StringBuilderUtility
 
 | name | description |
 | --- | --- |
-| static [AppendFormatInvariant](StringBuilderUtility/AppendFormatInvariant.md)(…) | Append the invariant representation of the specfied format tot he end of *stringBuilder*. |
+| static [AppendFormatInvariant](StringBuilderUtility/AppendFormatInvariant.md)(…) | Append the invariant representation of the specfied format to the end of *stringBuilder*. |
 | static [AppendInvariant](StringBuilderUtility/AppendInvariant.md)(…) | Appends the invariant representation of a specified boolean value to the end of *stringBuilder*. (12 methods) |
 
 ## See Also

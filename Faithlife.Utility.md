@@ -31,6 +31,7 @@
 | interface [IHasEquivalence&lt;T&gt;](Faithlife.Utility/IHasEquivalence-1.md) | Implemented by reference classes that do not want to implement IEquatable{T}, but do want to support some form of equivalence. |
 | static class [InvariantConvert](Faithlife.Utility/InvariantConvert.md) | Methods for converting to and from strings using the invariant culture. |
 | interface [IOptional](Faithlife.Utility/IOptional.md) | Represents an optional value. |
+| class [KeyEqualityComparer&lt;TSource,TKey&gt;](Faithlife.Utility/KeyEqualityComparer-2.md) | An EqualityComparer which tests equality on a key type |
 | static class [ListUtility](Faithlife.Utility/ListUtility.md) | Methods for manipulating lists. |
 | static class [ObjectImpl](Faithlife.Utility/ObjectImpl.md) | Provides methods for manipulating objects. |
 | static class [ObjectUtility](Faithlife.Utility/ObjectUtility.md) | Provides methods for manipulating objects. |

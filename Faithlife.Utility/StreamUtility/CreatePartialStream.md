@@ -3,7 +3,8 @@
 Uses [`RebasedStream`](../RebasedStream.md) and/or [`TruncatedStream`](../TruncatedStream.md) to create a read-only partial stream wrapper.
 
 ```csharp
-public static Stream CreatePartialStream(Stream stream, long offset, long? length, Ownership ownership)
+public static Stream CreatePartialStream(Stream stream, long offset, long? length, 
+    Ownership ownership)
 ```
 
 | parameter | description |

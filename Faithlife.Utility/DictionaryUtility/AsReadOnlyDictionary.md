@@ -3,7 +3,8 @@
 Represents the sequence of key-value pairs as a IReadOnlyDictionary.
 
 ```csharp
-public static IReadOnlyDictionary<TKey, TValue> AsReadOnlyDictionary<TKey, TValue>(this IEnumerable<KeyValuePair<TKey, TValue>> keyValuePairs)
+public static IReadOnlyDictionary<TKey, TValue> AsReadOnlyDictionary<TKey, TValue>(
+    this IEnumerable<KeyValuePair<TKey, TValue>> keyValuePairs)
 ```
 
 | parameter | description |

@@ -3,7 +3,8 @@
 Asynchronously reads the bytes from the current stream and writes them to another stream, using a specified buffer size and cancellation token.
 
 ```csharp
-public override Task CopyToAsync(Stream destination, int bufferSize, CancellationToken cancellationToken)
+public override Task CopyToAsync(Stream destination, int bufferSize, 
+    CancellationToken cancellationToken)
 ```
 
 ## See Also

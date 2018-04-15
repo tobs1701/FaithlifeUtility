@@ -52,7 +52,8 @@ public static bool AreEqual<T>(IEnumerable<T> first, IEnumerable<T> second, Func
 Returns a value indicating whether the specified sequences are equal using the specified equality comparer. Supports one or both sequences being null.
 
 ```csharp
-public static bool AreEqual<T>(IEnumerable<T> first, IEnumerable<T> second, IEqualityComparer<T> comparer)
+public static bool AreEqual<T>(IEnumerable<T> first, IEnumerable<T> second, 
+    IEqualityComparer<T> comparer)
 ```
 
 | parameter | description |

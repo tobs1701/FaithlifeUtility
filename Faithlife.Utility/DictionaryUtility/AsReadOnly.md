@@ -3,7 +3,8 @@
 Wraps the dictionary in a read-only dictionary.
 
 ```csharp
-public static ReadOnlyDictionary<TKey, TValue> AsReadOnly<TKey, TValue>(this IDictionary<TKey, TValue> dictionary)
+public static ReadOnlyDictionary<TKey, TValue> AsReadOnly<TKey, TValue>(
+    this IDictionary<TKey, TValue> dictionary)
 ```
 
 | parameter | description |

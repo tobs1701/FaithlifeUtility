@@ -3,7 +3,8 @@
 Reads *count* bytes from *stream* into *buffer*, starting at the byte given by *offset*.
 
 ```csharp
-public static Task<int> ReadBlockAsync(this Stream stream, byte[] buffer, int offset, int count, CancellationToken cancellationToken = default(CancellationToken))
+public static Task<int> ReadBlockAsync(this Stream stream, byte[] buffer, int offset, int count, 
+    CancellationToken cancellationToken = default(CancellationToken))
 ```
 
 | parameter | description |

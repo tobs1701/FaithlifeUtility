@@ -3,7 +3,8 @@
 Enumerates a sequence of elements in batches.
 
 ```csharp
-public static IEnumerable<IReadOnlyList<T>> EnumerateBatches<T>(this IEnumerable<T> source, int batchSize)
+public static IEnumerable<IReadOnlyList<T>> EnumerateBatches<T>(this IEnumerable<T> source, 
+    int batchSize)
 ```
 
 | parameter | description |

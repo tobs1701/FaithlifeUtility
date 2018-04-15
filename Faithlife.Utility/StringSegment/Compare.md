@@ -3,7 +3,8 @@
 Compares two string segments.
 
 ```csharp
-public static int Compare(StringSegment segmentA, StringSegment segmentB, StringComparison comparison)
+public static int Compare(StringSegment segmentA, StringSegment segmentB, 
+    StringComparison comparison)
 ```
 
 | parameter | description |

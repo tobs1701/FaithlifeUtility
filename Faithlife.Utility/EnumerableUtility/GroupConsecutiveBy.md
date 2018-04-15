@@ -3,7 +3,8 @@
 Groups the elements of a sequence according to a specified key selector function. Each group consists of *consecutive* items having the same key. Order is preserved.
 
 ```csharp
-public static IEnumerable<IGrouping<TKey, TSource>> GroupConsecutiveBy<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector)
+public static IEnumerable<IGrouping<TKey, TSource>> GroupConsecutiveBy<TSource, TKey>(
+    this IEnumerable<TSource> source, Func<TSource, TKey> keySelector)
 ```
 
 | parameter | description |

@@ -47,7 +47,8 @@ public static void DisposeAfter<T>(this T disposable, Action<T> action)
 Disposes the specified object after executing the specified delegate.
 
 ```csharp
-public static TOutput DisposeAfter<TInput, TOutput>(this TInput disposable, Func<TInput, TOutput> action)
+public static TOutput DisposeAfter<TInput, TOutput>(this TInput disposable, 
+    Func<TInput, TOutput> action)
     where TInput : IDisposable
 ```
 

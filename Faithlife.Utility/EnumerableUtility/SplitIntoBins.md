@@ -3,7 +3,8 @@
 Splits the *source* sequence into *binCount* equal-sized bins. If *binCount* does not evenly divide the total element count, then the first (total count % *binCount*) bins will have one more element than the following bins.
 
 ```csharp
-public static IEnumerable<ReadOnlyCollection<T>> SplitIntoBins<T>(this IEnumerable<T> source, int binCount)
+public static IEnumerable<ReadOnlyCollection<T>> SplitIntoBins<T>(this IEnumerable<T> source, 
+    int binCount)
 ```
 
 | parameter | description |

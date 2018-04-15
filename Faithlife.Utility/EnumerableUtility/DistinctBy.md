@@ -3,7 +3,8 @@
 Returns distinct elements from a sequence based on a key by using the default equality comparer.
 
 ```csharp
-public static IEnumerable<TSource> DistinctBy<TSource, TKey>(this IEnumerable<TSource> source, Func<TSource, TKey> keySelector)
+public static IEnumerable<TSource> DistinctBy<TSource, TKey>(this IEnumerable<TSource> source, 
+    Func<TSource, TKey> keySelector)
 ```
 
 | parameter | description |

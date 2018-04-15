@@ -3,8 +3,8 @@
 Subscribes to the event of the specified source with a weak reference to the subscriber.
 
 ```csharp
-public static Scope WeakSubscribe<TSource, TTarget>(this EventInfo<TSource, EventHandler> info, TSource source, 
-    TTarget target, Action<TTarget, object, EventArgs> action)
+public static Scope WeakSubscribe<TSource, TTarget>(this EventInfo<TSource, EventHandler> info, 
+    TSource source, TTarget target, Action<TTarget, object, EventArgs> action)
     where TTarget : class
 ```
 
@@ -35,8 +35,9 @@ A Scope that unsubscribes from the event when disposed.
 Subscribes to the event of the specified source with a weak reference to the subscriber.
 
 ```csharp
-public static Scope WeakSubscribe<TSource, TTarget, TEventArgs>(this EventInfo<TSource, EventHandler<TEventArgs>> info, 
-    TSource source, TTarget target, Action<TTarget, object, TEventArgs> action)
+public static Scope WeakSubscribe<TSource, TTarget, TEventArgs>(
+    this EventInfo<TSource, EventHandler<TEventArgs>> info, TSource source, TTarget target, 
+    Action<TTarget, object, TEventArgs> action)
     where TTarget : class
     where TEventArgs : EventArgs
 ```

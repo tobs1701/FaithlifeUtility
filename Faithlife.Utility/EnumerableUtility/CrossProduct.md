@@ -26,7 +26,8 @@ A new sequence of sequences, where the first item in each sequence is from the f
 Returns the Cartesian cross-product of a sequence of sequences.
 
 ```csharp
-public static IEnumerable<IEnumerable<TItem>> CrossProduct<TSequence, TItem>(this IEnumerable<TSequence> sources)
+public static IEnumerable<IEnumerable<TItem>> CrossProduct<TSequence, TItem>(
+    this IEnumerable<TSequence> sources)
     where TSequence : IEnumerable<TItem>
 ```
 

@@ -3,7 +3,8 @@
 Builds a URI from a pattern and an object containing parameters.
 
 ```csharp
-public static Uri FromPattern(string uriPattern, IEnumerable<KeyValuePair<string, object>> parameters)
+public static Uri FromPattern(string uriPattern, 
+    IEnumerable<KeyValuePair<string, object>> parameters)
 ```
 
 | parameter | description |
@@ -27,7 +28,8 @@ Each value is converted to a string with the invariant culture; see the other ov
 Builds a URI from a pattern and parameters.
 
 ```csharp
-public static Uri FromPattern(string uriPattern, IEnumerable<KeyValuePair<string, string>> parameters)
+public static Uri FromPattern(string uriPattern, 
+    IEnumerable<KeyValuePair<string, string>> parameters)
 ```
 
 | parameter | description |

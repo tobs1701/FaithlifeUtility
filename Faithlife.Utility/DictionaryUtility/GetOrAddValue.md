@@ -3,7 +3,8 @@
 Gets a value from the dictionary, adding and returning a new instance if it is missing.
 
 ```csharp
-public static TValue GetOrAddValue<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key)
+public static TValue GetOrAddValue<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, 
+    TKey key)
     where TValue : new()
 ```
 
@@ -28,7 +29,8 @@ The new or existing value.
 Gets a value from the dictionary, adding and returning a new instance if it is missing.
 
 ```csharp
-public static TValue GetOrAddValue<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, Func<TValue> creator)
+public static TValue GetOrAddValue<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, 
+    TKey key, Func<TValue> creator)
 ```
 
 | parameter | description |

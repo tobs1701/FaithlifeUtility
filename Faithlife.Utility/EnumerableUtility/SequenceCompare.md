@@ -28,7 +28,8 @@ public static int SequenceCompare<T>(this IEnumerable<T> first, IEnumerable<T> s
 Compares two sequences.
 
 ```csharp
-public static int SequenceCompare<T>(this IEnumerable<T> first, IEnumerable<T> second, IComparer<T> comparer)
+public static int SequenceCompare<T>(this IEnumerable<T> first, IEnumerable<T> second, 
+    IComparer<T> comparer)
 ```
 
 | parameter | description |

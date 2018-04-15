@@ -27,7 +27,8 @@ A sequence consisting of every distinct item in the specified sequence that does
 Makes distinct and then removes a single item from a sequence.
 
 ```csharp
-public static IEnumerable<T> Except<T>(this IEnumerable<T> source, T item, IEqualityComparer<T> comparer)
+public static IEnumerable<T> Except<T>(this IEnumerable<T> source, T item, 
+    IEqualityComparer<T> comparer)
 ```
 
 | parameter | description |

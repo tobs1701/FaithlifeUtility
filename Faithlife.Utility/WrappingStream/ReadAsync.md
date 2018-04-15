@@ -3,7 +3,8 @@
 Asynchronously reads a sequence of bytes from the current stream, advances the position within the stream by the number of bytes read, and monitors cancellation requests.
 
 ```csharp
-public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
+public override Task<int> ReadAsync(byte[] buffer, int offset, int count, 
+    CancellationToken cancellationToken)
 ```
 
 ## See Also

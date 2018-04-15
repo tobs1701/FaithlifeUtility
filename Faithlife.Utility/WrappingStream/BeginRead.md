@@ -3,7 +3,8 @@
 Begins an asynchronous read operation.
 
 ```csharp
-public override IAsyncResult BeginRead(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
+public override IAsyncResult BeginRead(byte[] buffer, int offset, int count, 
+    AsyncCallback callback, object state)
 ```
 
 ## See Also

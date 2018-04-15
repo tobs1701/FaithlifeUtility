@@ -3,7 +3,8 @@
 Reads all bytes from the stream.
 
 ```csharp
-public static Task<byte[]> ReadAllBytesAsync(this Stream stream, CancellationToken cancellationToken = default(CancellationToken))
+public static Task<byte[]> ReadAllBytesAsync(this Stream stream, 
+    CancellationToken cancellationToken = default(CancellationToken))
 ```
 
 | parameter | description |

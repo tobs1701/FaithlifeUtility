@@ -3,7 +3,8 @@
 Asynchronously writes a sequence of bytes to the current stream, advances the current position within this stream by the number of bytes written, and monitors cancellation requests.
 
 ```csharp
-public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
+public override Task WriteAsync(byte[] buffer, int offset, int count, 
+    CancellationToken cancellationToken)
 ```
 
 ## See Also

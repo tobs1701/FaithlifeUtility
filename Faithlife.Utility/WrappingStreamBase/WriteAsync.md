@@ -3,7 +3,8 @@
 Writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.
 
 ```csharp
-public abstract Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
+public abstract Task WriteAsync(byte[] buffer, int offset, int count, 
+    CancellationToken cancellationToken)
 ```
 
 ## See Also

@@ -3,7 +3,8 @@
 Initializes a new instance of the [`EventInfo`](../EventInfo-2.md) class.
 
 ```csharp
-public EventInfo(Action<TSource, TEventHandler> addHandler, Action<TSource, TEventHandler> removeHandler)
+public EventInfo(Action<TSource, TEventHandler> addHandler, 
+    Action<TSource, TEventHandler> removeHandler)
 ```
 
 | parameter | description |

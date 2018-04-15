@@ -3,7 +3,8 @@
 Begins an asynchronous write operation.
 
 ```csharp
-public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
+public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, 
+    AsyncCallback callback, object state)
 ```
 
 ## See Also

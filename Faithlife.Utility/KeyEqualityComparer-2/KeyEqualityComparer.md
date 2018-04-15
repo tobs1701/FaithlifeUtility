@@ -3,7 +3,8 @@
 Initializes a new instance of the KeyEqualityComparer class.
 
 ```csharp
-public KeyEqualityComparer(Func<TSource, TKey> keySelector, IEqualityComparer<TKey> keyComparer = null)
+public KeyEqualityComparer(Func<TSource, TKey> keySelector, 
+    IEqualityComparer<TKey> keyComparer = null)
 ```
 
 | parameter | description |

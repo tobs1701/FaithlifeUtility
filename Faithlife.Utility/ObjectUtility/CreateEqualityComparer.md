@@ -31,7 +31,8 @@ If GetHashCode is called, it will throw a NotImplementedException.
 Creates an equality comparer from delegates.
 
 ```csharp
-public static EqualityComparer<T> CreateEqualityComparer<T>(Func<T, T, bool> equals, Func<T, int> getHashCode)
+public static EqualityComparer<T> CreateEqualityComparer<T>(Func<T, T, bool> equals, 
+    Func<T, int> getHashCode)
 ```
 
 | parameter | description |

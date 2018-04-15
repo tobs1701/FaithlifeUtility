@@ -3,7 +3,8 @@
 Lazily merges two sorted sequences, maintaining sort order. Does not remove duplicates.
 
 ```csharp
-public static IEnumerable<T> MergeSorted<T>(IEnumerable<T> source1, IEnumerable<T> source2, IComparer<T> comparer)
+public static IEnumerable<T> MergeSorted<T>(IEnumerable<T> source1, IEnumerable<T> source2, 
+    IComparer<T> comparer)
 ```
 
 | parameter | description |

@@ -3,7 +3,8 @@
 Encapsulates a length of characters from a string starting at a particular offset.
 
 ```csharp
-public struct StringSegment : IComparable<StringSegment>, IEnumerable<char>, IEquatable<StringSegment>
+public struct StringSegment : IComparable<StringSegment>, IEnumerable<char>, 
+    IEquatable<StringSegment>
 ```
 
 ## Public Members
@@ -52,7 +53,6 @@ public struct StringSegment : IComparable<StringSegment>, IEnumerable<char>, IEq
 
 ## See Also
 
-* struct [StringSegment](StringSegment.md)
 * namespace [Faithlife.Utility](../Faithlife.Utility.md)
 * [StringSegment.cs](https://github.com/Faithlife/FaithlifeUtility/tree/master/src/Faithlife.Utility/StringSegment.cs)
 

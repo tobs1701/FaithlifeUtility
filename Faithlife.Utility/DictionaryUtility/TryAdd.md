@@ -3,7 +3,8 @@
 Tries to add a value to the dictionary.
 
 ```csharp
-public static bool TryAdd<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, TValue value)
+public static bool TryAdd<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey key, 
+    TValue value)
 ```
 
 | parameter | description |
